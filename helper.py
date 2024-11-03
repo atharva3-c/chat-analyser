@@ -2,7 +2,9 @@
 from wordcloud import WordCloud
 import pandas as pd
 from collections import Counter
+from urlextract import URLExtract
 
+extract = URLExtract()
 
 
 def fetch_stats(selected_user, df):
